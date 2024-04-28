@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mx-3">
+      <main className="mx-auto my-4 container">
         <Outlet />
       </main>
       <Footer/>
