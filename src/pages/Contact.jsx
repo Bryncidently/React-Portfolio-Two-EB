@@ -36,7 +36,7 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit} className='contactForm' name="Contact" method="POST" data-netlify="true">
+      <form className='contactForm' name="Contact" method="POST" data-netlify="true">
         <div className='mb-4'>
           <label htmlFor="name">Name:</label>
           <input
@@ -76,6 +76,10 @@ export default function Contact() {
         </div>
         <button type="submit" className='btn btn-primary'>Submit</button>
       </form>
+
+
     </div>
   );
 }
+
+
