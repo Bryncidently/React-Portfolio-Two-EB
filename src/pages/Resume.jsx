@@ -2,12 +2,12 @@ export default function Resume() {
     return (
       <div className="about">
         <h1 className="mb-4 resumeOne">Resumé</h1>
-        <p>
-          <h3><i class="bi bi-newspaper"></i> Summary</h3>
+        <div>
+          <h3><i className="bi bi-newspaper"></i> Summary</h3>
           <p>Results-driven professional with expertise in full-stack software engineering and a strong background in technical support and testing. Proficient in a wide range of technologies including HTML, CSS, JavaScript, React, Node.js, MongoDB, MySQL, and more. Adept at fostering collaborative relationships and delivering exceptional service in diverse environments. Known for problem-solving and innovation. Seeking to leverage technical skills and experience to drive success in a dynamic team setting.</p>
           <br />
 
-          <h3><i class="bi bi-check-all"></i> Skills & Qualifications</h3>
+          <h3><i className="bi bi-check-all"></i> Skills & Qualifications</h3>
           <ul>
             <li>Full-Stack Development Proficiency: Demonstrated skills in full-stack development, encompassing HTML, CSS, JavaScript, React, Node.js, GraphQL, and other relevant technologies.</li>
             <li>Agile Methodologies: Experienced in implementing agile development practices to enhance project efficiency and collaboration within cross-functional teams.</li>
@@ -20,7 +20,7 @@ export default function Resume() {
 
           <h3><i className="bi bi-code"></i> Experience</h3>
           <br />
-          <div class="resumeMargin">
+          <div className="resumeMargin">
           <h4>University of Denver Full Stack Boot Camp</h4>
           <h6>Nov 2023 to Feb 2024</h6>
           <ul>
@@ -34,7 +34,7 @@ export default function Resume() {
 
 
           <br />
-          <h4>Nextech Systems, LLC • <span class="jobTitle">Product Support Technician</span> </h4>
+          <h4>Nextech Systems, LLC • <span className="jobTitle">Product Support Technician</span> </h4>
           <h6>Oct 2020 to Oct 2023</h6>
           <ul>
             <li>Demonstrated expert in applications for both cloud and client server environments</li>
@@ -49,7 +49,7 @@ export default function Resume() {
           </ul>
           <br />
 
-          <h4>Moffitt Cancer Center • <span class="jobTitle">Support Associate</span> </h4>
+          <h4>Moffitt Cancer Center • <span className="jobTitle">Support Associate</span> </h4>
           <h6>Apr 2019 – Oct 2020</h6>
           <ul>
             <li>Became software system expert working with systems team and vendor</li>
@@ -57,7 +57,7 @@ export default function Resume() {
           </ul>
           <br />
 
-          <h4>Shipt • <span class="jobTitle">Implementation Lead</span> </h4>
+          <h4>Shipt • <span className="jobTitle">Implementation Lead</span> </h4>
           <h6>Jun 2014 to Mar 2019</h6>
           <ul>
             <li>Collaborated with cross-functional engineering teams to identify areas for improvement in the onboarding process, implementing enhancements to streamline operations and improve shopper satisfaction</li>
@@ -67,7 +67,7 @@ export default function Resume() {
           </ul>
           <br />
 
-          <h4>GE Transportation • <span class="jobTitle">Lead Technical Specialist </span> </h4>
+          <h4>GE Transportation • <span className="jobTitle">Lead Technical Specialist </span> </h4>
           <h6>Sept 2011 – Apr 2014</h6>
           <ul>
             <li>Served as the technical expert for critical software applications, managing bug fix triage and prioritizing product enhancement backlog to meet the needs of key customers</li>
@@ -92,8 +92,8 @@ export default function Resume() {
           </div>
 
 
-        <div class="col-sm">
-          <h3><i class="bi bi-person"></i> Professional Competencies</h3>
+        <div className="col-sm">
+          <h3><i className="bi bi-person"></i> Professional Competencies</h3>
           <ul>
             <li>Attention to detail</li>
             <li>Strong communication skills</li>
@@ -111,7 +111,7 @@ export default function Resume() {
       </div>
       <br />
 
-      <h3><i class="bi bi-mortarboard-fill"></i> Education</h3>
+      <h3><i className="bi bi-mortarboard-fill"></i> Education</h3>
       <ul>
         <li>University of Denver - Full Stack Boot Camp 2024</li>
         <li>Eastern Michigan University - Bachelor of Arts 2010</li>
@@ -120,8 +120,8 @@ export default function Resume() {
       <br />
 
 
-      <a href="/Entire shrek script.pdf" download className="btn btn-lg btn-primary">Download Resumé </a>
-        </p>
+      <a href="/Bryn Glotfelty Resume 2024.pdf" download className="btn btn-lg btn-primary">Download Resumé </a>
+        </div>
       </div>
     );
   }
