@@ -60,8 +60,8 @@
   width: 100%;
 
   background:
-linear-gradient(135deg, black 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-linear-gradient(225deg, black 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+linear-gradient(135deg, black 21px, #d9ecff33 22px, #d9ecff33 24px, transparent 24px, transparent 67px, #d9ecff33 67px, #d9ecff33 69px, transparent 69px),
+linear-gradient(225deg, black 21px, #d9ecff33 22px, #d9ecff33 24px, transparent 24px, transparent 67px, #d9ecff33 67px, #d9ecff33 69px, transparent 69px)0 64px;
 background-color: black;
 background-size: 64px 128px;
 
