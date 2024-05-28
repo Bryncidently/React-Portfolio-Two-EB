@@ -3,7 +3,7 @@ export default function About() {
       <div className="about">
         <h1 className="text-center mb-4">About Me</h1>
         <section className="d-flex gap-4">
-          <img src="/IMG_8559.jpeg" alt="avatar" />
+          <img src="/IMG_8559.jpeg" alt="avatar" className="about-img"/>
           <div className="content"><p>
           Hello, I'm Bryn! I recently graduated from the Full Stack Bootcamp at the University of Denver, equipped with a strong foundation in web development and eager to embark on my journey as a professional Web Developer.
           </p>

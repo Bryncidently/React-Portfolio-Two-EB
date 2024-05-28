@@ -151,6 +151,29 @@ main {
   text-align: left;
 }
 
+.about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.about .content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .about section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about img {
+    max-width: 80%; 
+    margin-bottom: 20px;
+  }
+}
+
+
 .resumeOne {
   text-align: center;
 }
@@ -164,27 +187,40 @@ main {
 }
 
 
-/* Existing imports and styles */
+
 
 .hamburger {
   display: none;
   cursor: pointer;
   font-size: 24px;
+  color: var(--white);
 }
 
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
   .myNav {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     background-color: var(--black);
+    position: absolute;
+    top: 100px; 
+    right: 0;
+    z-index: 1000;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
   }
 
   .myNav.active {
     display: flex;
+    max-height: 500px; 
   }
 
-  .hamburger {
-    display: block;
+  .nav-item {
+    padding: 10px;
   }
 }
